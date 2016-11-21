@@ -1,0 +1,27 @@
+<div className="bodydiv">
+               <div className="bikeimg">
+                  <img style={{margin: 'auto', height: '100'+'%'}} src="./images/Drop/scooter.png"/>
+               </div>
+               <div className="addLetter">Add your regular<br/>delivery person</div>
+               <div className="inputdiv">
+                  <FormGroup>
+                     <FormControl className="inputElement" type="text" placeholder="Delivery person's name" />
+                     <FormControl className="inputElement" type="text" placeholder="Delivery person's mobile" />
+                  </FormGroup>
+               </div>
+               <div className="addimage">
+                  <img style={{float: 'left', height: '100'+'%'}} src="./images/Drop/add_button.png"/>
+                  Add as many as you need
+               </div>
+               <div className="orLetter">OR</div>
+               <div className="findimage">
+                  <img style={{float: 'left', height: '100'+'%'}} src="./images/Drop/search.png"/>
+                  Let us recomment someone
+               </div>
+            </div>
+
+            <div onClick={this.toFirstPage} >go first</div>;
+
+            <div onClick={this.toSecondPage} >go second</div>;
+
+            <div isSecondPage={isSecondPage} >asdfasdf</div>

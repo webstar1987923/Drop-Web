@@ -1,0 +1,54 @@
+.slick-dots{
+	position: relative;
+	bottom: 16%;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+a:focus{
+	text-decoration: none;
+}
+.slick-dots li button:before{
+	font-size: 16px;
+	color: white;
+	opacity: 1;
+}
+.slick-dots li.slick-active button:before{
+	opacity: 1;
+	color: #FDD835;
+}
+.modal-dialog{
+	height: initial;
+}
+.btn-group, .btn-group-vertical{
+	display: initial;
+}
+
+/*menu active disable*/
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover{
+	background: #ffffff !important;
+	color: #2e90f0;
+}
+.btn-default.focus, .btn-default:focus{
+	background: #ffffff;
+}
+.modal-content{
+	background: #EDEDED;
+}
+
+/*make button active style*/
+.makeactive{
+	
+}
+.makeactive:active{
+	background: #ccc;
+}
+.modalBtn:active{
+	background: #ccc;
+}
+label.dv-star-rating-star {
+    font-size: 60px;
+}

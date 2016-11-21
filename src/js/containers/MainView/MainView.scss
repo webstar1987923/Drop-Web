@@ -1,0 +1,147 @@
+.mainDiv{
+	background: #EDEDED;
+}
+.titleDiv{
+	background: #ffffff;
+	height: 8%;
+	border-bottom: 1px solid #DDDDDD;
+	font-size: 20px;
+    
+}
+.menuDiv{
+	float: right;
+	height: 0%;
+	font-weight: bold;
+    font-size: 20px;
+}
+.noButton{
+	background: transparent;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.titleLetter{
+	width: 300px;
+	margin: auto;
+	padding-top: 10px;
+}
+.dropButtonDiv{
+	height: 52%;
+}
+.profileDiv{
+	height: 40%;
+}
+.sliderDiv{
+	height: 360px;
+}
+.circleButtonDiv{
+	height: 222px;
+	width: 222px;
+    margin: auto;
+	margin-top: -340px;
+	
+
+}
+.profileItemDiv{
+	height: 25%;
+	width: 370px;
+    margin: auto;
+    padding: 10px;
+}
+.profileLetter{
+	padding: 8px;
+    float: left;
+    font-size: 20px;
+    color: #777;
+}
+.dropButtonLetter{
+	color: white;
+	height: 50px;
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: -145px;
+}
+.modalLetterDiv{
+	height: 30%;
+
+}
+.modalHandDiv{
+	height: 50%;
+
+}
+.modalCloseBtnDiv{
+	height: 20%;
+}
+.mo_per_imgDiv{
+	width:80%;
+	margin: 10px auto;
+	height: 40px;
+}
+.mo_per_img{
+	height: 100%;
+	float: left;
+}
+.mo_large_letter{
+	font-size: 25px;
+}
+.mo_small_letter{
+	padding: 8px;
+}
+.mo_inputElement{
+	width: 80%;
+	margin: 20px auto;
+}
+.mo_per_img_center{
+	height: 100%;
+}
+.mo_mapDiv{
+	height: 300px;
+	width: 80%;
+	margin: auto;
+}
+.mo_map{
+	height: 60%;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	background: white;
+	border-bottom: 1px solid #EDEDED;
+}
+.mo_mapLetter{
+	height: 40%;
+	background: white;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	color: #2196F3;
+	text-align: left;
+	padding: 5px;
+}
+.menu_img{
+	float: left;
+	height: 25px;
+	margin-right: 10px;
+}
+.helpModal{
+	.modal-content{
+		background: transparent;
+		border:none;
+		-webkit-box-shadow:none;
+	}
+}
+.helpModalHeader{
+	width: 80%;
+	margin: 50px auto;
+	font-size: 20px;
+    color: white;
+}
+.helpModal_img{
+	width:100%;
+	padding: 40px;
+}
+.helpModalBtn{
+	color: white;
+    font-size: 25px;
+    border: 3px solid;
+    border-radius: 5px;
+    width: 80px;
+    margin: 40px auto 0px;
+}
