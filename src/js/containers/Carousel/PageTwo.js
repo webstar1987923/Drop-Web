@@ -75,7 +75,7 @@ class PageTwo extends React.Component {
       currentPage = <div className="bodydiv">
                 <div className="backLetter"  onClick={this.toFirstPage}>&lt;Back</div>
                 <div className="bikeimg">
-                  <img style={{margin: 'auto', height: '100'+'%'}} src="./images/Drop/scooter.png"/>
+                  <img style={{margin: 'auto', height: '100'+'%'}} src="./images/Drop/Scooter.png"/>
                 </div>
                 <div className="recommendLetter">We recommend</div>
                 <div className="nameLetter">
