@@ -159,7 +159,7 @@ class PageTwo extends React.Component {
     } else {
       currentPage = <div className="bodydiv">
                 <div className="bikeimg">
-                  <img style={{margin: 'auto', height: '100'+'%'}} src="./images/Drop/scooter.png"/>
+                  <img style={{margin: 'auto', height: '100'+'%'}} src="./images/Drop/Scooter.png"/>
                 </div>
                 <div className="addLetter">Add your regular<br/>delivery person</div>
                 <div className="inputdiv">
