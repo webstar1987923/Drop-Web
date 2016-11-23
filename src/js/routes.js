@@ -4,6 +4,7 @@ import { Route, IndexRoute, Redirect, IndexRedirect } from 'react-router';
 import App from './components/App';
 import Carousel from './containers/Carousel/Carousel';
 import MainView from './containers/MainView/MainView';
+import Test from './Test/Test';
 import NotFoundView from './views/NotFoundView';
 
 export default (
@@ -11,6 +12,7 @@ export default (
 		<IndexRedirect to="Carousel" />
 		<Route path="Carousel" component={Carousel} />
 		<Route path="MainView" component={MainView} />
+		<Route path="Test" component={Test} />
 		<Route path="404" component={NotFoundView} />
 		<Redirect from="*" to="404" />
 	</Route>

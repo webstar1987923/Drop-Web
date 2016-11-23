@@ -178,12 +178,14 @@ export default class MainView extends React.Component {
       			<div className="profileLetter">150,000d for 13 items</div>
       		</div>
       	</div>
-        <Modal show={this.state.showHelpM} className="helpModal" animation={false}>
-                  <div className="helpModalHeader">
-                    Pull the <strong>Drop</strong> switch down and<br/>release to place your first order!
+        <Modal show={this.state.showHelpM} className="helpModal" animation={false} onHide={this.closeHelpM}>
+                  <div onClick={this.closeHelpM}>
+                    <div className="helpModalHeader">
+                      Pull the <strong>Drop</strong> switch down and<br/>release to place your first order!
+                    </div>
+                    <img className="helpModal_img" src="./images/Drop/pull_down_finger_arrow.png"/>
+                    <div className="helpModalBtn">Got it!</div>
                   </div>
-                  <img className="helpModal_img" src="./images/Drop/pull_down_finger_arrow.png"/>
-                  <div className="helpModalBtn" onClick={this.closeHelpM}>Got it!</div>
                 </Modal>
         <Modal show={this.state.showTimeM} className="modal modalPosition">
                   <Modal.Header bsClass="myModalHeader">
@@ -230,8 +232,8 @@ export default class MainView extends React.Component {
                   <Modal.Body>
                     <div className="inputdiv">
                       <FormGroup>
-                         <FormControl className="mo_inputElement" type="text" placeholder="Name" />
-                         <FormControl className="mo_inputElement" type="text" placeholder="Mobile" />
+                         <FormControl className="mo_inputElement ph_name_icon" type="text" placeholder="Name" />
+                         <FormControl className="mo_inputElement ph_moblie_icon" type="text" placeholder="Mobile" />
                       </FormGroup>
                     </div>
                     
@@ -267,7 +269,7 @@ export default class MainView extends React.Component {
                 <Modal.Body>
                   <div className="inputThdiv">
                     
-                    <FormControl className="inputThElement" type="text" placeholder="Address label" />
+                    <FormControl className="inputThElement  ph_name_icon" type="text" placeholder="Address label" />
                   </div>
                   <div className="mo_mapDiv">
                     <div className="mo_map">
@@ -277,9 +279,7 @@ export default class MainView extends React.Component {
 
                        </GoogleMap>
                     </div>
-                    <div className="mo_mapLetter">
-                       Your delivery address
-                    </div>
+                    <FormControl componentClass="textarea" className="mapLetter ph_address_icon" type="text" placeholder="Your delivery address" />
                   </div>
                 </Modal.Body>
                 <Modal.Footer bsClass="modalFooter">

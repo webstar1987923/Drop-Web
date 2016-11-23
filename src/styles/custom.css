@@ -1,3 +1,15 @@
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #2196f3 !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #2196f3 !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #2196f3 !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #2196f3 !important;
+}
 .slick-dots{
 	position: relative;
 	bottom: 16%;

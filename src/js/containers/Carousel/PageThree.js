@@ -27,8 +27,8 @@ class PageThree extends Component {
 	            <div className="contactLetter">Your contact details</div>
 	            <div className="inputThdiv">
                   <FormGroup>
-                     <FormControl className="inputThElement" type="text" placeholder="Delivery person's name" />
-                     <FormControl className="inputThElement" type="text" placeholder="Delivery person's mobile" />
+                     <FormControl className="inputThElement ph_name_icon" type="text" placeholder="Your name" />
+                     <FormControl className="inputThElement ph_moblie_icon" type="text" placeholder="Your mobile number" />
                      
                   </FormGroup>
 
@@ -41,9 +41,8 @@ class PageThree extends Component {
 
                      </GoogleMap>
                   </div>
-                  <div className="mapLetter">
-                     Your delivery address
-                  </div>
+                  
+                  <FormControl componentClass="textarea" className="mapLetter ph_address_icon" type="text" placeholder="Your delivery address" />
                </div>
 
 	         </div>
