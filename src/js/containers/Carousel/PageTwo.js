@@ -2,8 +2,6 @@ import './Carousel.scss';
 import React, { Component, PropTypes } from 'react';
 import { FormGroup, FormControl, Modal, Button } from 'react-bootstrap';
 import ReactScrollableList from '../../components/ScrollList/ScrollList.js'
-import Validation from 'react-validation';
-
 let brandItems = [];
 
   // brandItems.push({ id: '0', content: 'Awa' });
