@@ -18,7 +18,7 @@ let ComponentEl= (
 
 // Render the React application to the DOM
 ReactDOM.render(
-  <div >
+  <div>
     {ComponentEl}
   </div>,
   rootElement
