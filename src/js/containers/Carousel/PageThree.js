@@ -28,7 +28,7 @@ class PageThree extends Component {
 	            <div className="inputThdiv">
                   <FormGroup>
                      <FormControl className="inputThElement ph_name_icon" type="text" placeholder="Your name" />
-                     <FormControl className="inputThElement ph_moblie_icon" type="text" placeholder="Your mobile number" />
+                     <FormControl className="inputThElement ph_moblie_icon" type="number" placeholder="Your mobile number" />
                      
                   </FormGroup>
 
