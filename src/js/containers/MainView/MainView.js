@@ -233,7 +233,7 @@ export default class MainView extends React.Component {
                     <div className="inputdiv">
                       <FormGroup>
                          <FormControl className="mo_inputElement ph_name_icon" type="text" placeholder="Name" />
-                         <FormControl className="mo_inputElement ph_moblie_icon" type="number" placeholder="Mobile" />
+                         <FormControl className="mo_inputElement ph_moblie_icon" type="text" placeholder="Mobile" />
                       </FormGroup>
                     </div>
                     

@@ -164,7 +164,7 @@ class PageTwo extends React.Component {
                 <div className="inputdiv">
                   <FormGroup>
                     <FormControl className="inputElement ph_name_icon" type="text" placeholder="Delivery person's name" />
-                    <FormControl className="inputElement ph_moblie_icon" type="number" placeholder="Delivery person's mobile" />
+                    <FormControl className="inputElement ph_moblie_icon" type="text" placeholder="Delivery person's mobile" />
                   </FormGroup>
                 </div>
                 <div className="addimage" style={{cursor: 'pointer'}}>
